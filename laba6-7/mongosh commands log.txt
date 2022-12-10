@@ -1,0 +1,173 @@
+fn342(5)
+function fn342(n){return Math.pow(n,2)}
+fn12(1,2,3)
+function fn12(a,b,c){return a*b*c}
+db.unicorns.updateMany({},{$unset:{asd:1}})
+db.unicorns.aggregate({$group:{_id:"$name", count:{$sum:1}}})
+db.unicorns.find()
+db.unicorns.updateMany({},{$unset:{asd:1}})
+db.unicorns.updateMany({{},{$unset:{asd:1}}})
+db.unicorns.find()
+db.unicorns.updateMany({},{$push:{asd:10}})
+db.unicorns.find()
+db.unicorns.updateMany({},{$push:{asd:10}})
+db.unicorns.updateMany({},{$inc:{weight:10}})
+db.unicorns.updateMany({},{$inc:{name:10}})
+db.unicorns.find()
+db.unicorns.updateMany({},{$inc:{weight:10}})
+db.unicorns.updateMany({$inc:{weight:10}})
+db.unicorns.find()
+db.unicorns.find()\
+show collections
+use learn
+db.unicorns.aggregate({$group:{_id:"$name", count:{$sum:1}}})
+db.unicorn.aggregate({$group:{_id:"$name", count:{$sum:1}}})
+db.unicorns.find()
+db.unicorns.updateOne({name: "Tom"}, {$unset:{name: 1}})
+db.unicorns.find()
+db.unicorns.updateOne({name: "Barny"}, {$unset:{name: 1}})
+db.unicorns.find()
+db.unicorns.updateOne({name: "Barny"}, {$set:{name:'Tom'}})
+db.unicorns.find()
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:1}}})
+db.unicorns.updateOne({name: "Dunx"}, {$set:{name:'Tom'}})
+db.unicorns.updateOne({name: "Dunx"}, {$set:{name:'Tom'})
+db.unicorns.updateOne({name: "Dunx"}, {name:"Tom"})
+show collections
+use learn
+db.unicorns.aggregate({$group:{_id:"$gender", count:{$sum:1}}})
+db.unicorns.aggregate({$group:{_id:gender, count:{$sum:1}}})
+db.unicorns.aggregate({$group:{_id:$gender, count:{$sum:1}}})
+db.unicorns.aggregate({$group:{_id:"$gender", count:{$sum:1}}})
+db.unicorns.aggregate({"$group":{_id:"$gender", count:{$sum:1}}})
+db.unicorns.aggregate({"$group":{_id:"$gender", count:{$sum:1}}}).count()
+db.unicorns.find({name:'Leia'})
+db.unicorns.updateOne({name:'Leia'}, {$unset:{languages:1}})
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:1}}})
+db.unicorns.aggregate({"$group":{_id:"$gender", count:{$sum:1}}})
+db.unicorns.find()
+db.unicorns.remove({name:'Tom'})
+db.unicorns.find()
+db.unicorns.updateMany({name: 'Barny'}, {$push:{loves:'qwerty'}})
+db.unicorns.find()
+db.unicorns.updateOne({name: 'Barny'}, {$push:{loves:'qwerty'}})
+db.unicorns.find()
+db.unicorns.replaceOne({name: "Dunx"}, {name:"Tom"})
+db.unicorns.updateOne({name: "Dunx"}, {name:"Tom"})
+db.unicorns.update({name: "Dunx"}, {name:"Tom"})
+db.unicorns.updateMany({name: "Dunx"}, {$set:{lou:25}})
+db.unicorns.updateMany({name: "Leia"}, {$inc: {weight: 30}})
+db.unicorns.updateMany({name: "Dunx"}, {name:"Tom"})
+db.unicorns.updateOne({name: "Dunx"}, {name:"Tom"})
+db.unicorns.find()
+fn(3)
+fn(2)
+fn1(2)
+fn = function fn1(n) {return Math.pow(n,2) }
+show collections
+use learn
+db.unicorns.find()
+db.unicorns.updateMany({name: "Leia"}, {$inc: {weight: 30}})
+db.unicorns.find()
+db.unicorns.updateMany({name: "Leila"}, {$inc: {weight: 30}})
+db.unicorns.find()
+db.unicorns.find({name: "Leila"})
+db.unicorns.updateMany({name: "Leila"}, {$inc: {weight: 30}})
+db.unicorns.updateMany({name: "Leila"}, {weight: {$inc: 30}})
+db.unicorns.updateMany({name: "Leila"}, {$inc: 30})
+db.unicorns.aggregate({$group: { _id: "$weight", count: { $sum: 1 }}})
+db.unicorns.aggregate({$group: { _id: "$name", count: { $sum: 1 }}})
+db.unicorn.aggregate({$group: { _id: "$name", count: { $sum: 1 }}})
+db.unicorn.aggregate({$group: { _id: "$weight", count: { $sum: 1 }}})
+db.unicorn.aggregate($group: {_id:"$weight", {$sum:1}})
+db.unicorn.aggregate($group: {_id:"$weight", $sum:1})
+db.unicorns.find()
+db.unicorn.find()
+db.unicorns.aggregate({$group:{_id:"$name",count:{$sum: 1}}})
+db.unicorns.aggregateO({$group:{_id:"$name",count:{$sum: 1}}})
+db.unicorns.aggregateO({$group:{_id:"$name",count:{$sum: 1}}}})
+db.unicorns.find()
+use learn
+db.find()
+db.find
+db.find()
+show collections
+use unicorns
+use uniconrns
+db.unicorns.find()
+show collections
+use learn
+show dbs
+show collections
+db.unicorns.find()
+db.unicorns.updateMany({name: 'Barny'},{$inc:{weight: 123 }})
+db.unicorns.updateMany({name: 'Barny'}},{$inc:{weight: 123 }})
+db.unicorns.find()
+db.find()
+db.unicorns.find({gender: 'm',gender: 'f'}).sort({name: 1})
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:1}}})
+db.unicorns.find({weight:{$lt:500}})
+db.unicorn.find({weight:{$lt:500}})
+db.unicorns.updateMany({weight:{$lt:500}},{$set:{name: 'Barny' }})
+steve = db.unicorn.insert({name:"steve", "age": 45, referrence: new DBRef('unicorn',apple._id)})
+apple = ({name:"qwer", age : 5})
+steve = db.unicorn.insert({name:"steve", "age": 45, referrence: new DBRef('unicorn',unic1._id)})
+db.unicorn.insert({name:"steve", "age": 45, referrence: new DBRef('unicorn',db.unic1._id)})
+db.unicorn.insert({name:"steve", "age": 45, referrence: new DBRef('unicorn', unic1._id)})
+show collections
+db.unic2.insert({name: 'Dunx'})
+db.unic1.insert({name: 'Dunx'})
+show collections
+db.unic1.insert({name: 'Dunx'})
+    vampires: 165
+weight: 704, gender: 'm',
+dob: ISODate("1976-07-18T15:18:00.000Z"), loves: [ 'grape', 'watermelon' ],
+db.unic1.insert({name: 'Dunx',})
+db.unicorns.updateMany({gender:'f'}, {$push:{languages:'123','321'}})
+db.unicorns.find()
+db.unicorns.updateMany({gender:'f'}, {$push:{languages:['123','321']}})
+db.unicorns.find()
+db.unicorns.updateMany({gender:'f'}, {$push:{languages:'russian'}})
+db.unicorns.updateOne({name:"Nimue"},{$set:{name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' }})
+db.unicorns.updateOne({name:"Nimue"},{$set:{_id:19 ,name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' }})
+db.unicorns.updateOne({name:"Nimue"},$set:{_id:19 ,name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' })
+db.unicorns.update({name:"Nimue"},$set:{_id:19 ,name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' })
+db.unicorns.update({name:"Nimue"},{_id:19 ,name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' })
+db.unicorns.save({_id:19 ,name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' })
+db.unicorns.save({ name: 'Barny', loves: ['grape'], weight: 340, gender: 'm' })
+db.unicorns.find().skip(2)
+db.unicorns.find().skip(2).count()
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:1}}})
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:3}}})
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:2}}})
+db.unicorns.aggregate({"$group":{_id:"$name", count:{$sum:1}}})
+db.unicorns.aggregate({"$group":{"$name", count:{$sum:1}}})
+db.unicorns.find().skip(2).count()
+db.unicorns.find().limit(3).count()
+db.unicorns.find().count()
+db.unicorns.find().count(true)
+cursor
+cursor.limit(2)
+cursor.limit(3)
+cursor
+cursor.limit(3)
+var cursor = db.unicorns.find()
+cursor.limit(3)
+var cursor = db.unicorns.find()
+vat cursor = db.unicorns.find()
+cursor
+var cursor = db.unicorns.find()
+cursor
+var cursor = db.unicorns.find({name:"Dunx"}); null;
+cursor
+var cursor = db.unicorns.find({name:"Dunx"})
+cursor
+var cursor = db.unicorns.find()
+db.unicorns.find(f)
+f = function() {return this.name == "Horny";}
+db.unicorns.find(fn)
+fn = function() {return this.name == "Horny";}
+db.unicorns.find(fn)
+fn = function() {return this.name == "Pilot";}
+db.unicorns.find(fn)
+fn = function(){return this.name == "Pilot";}

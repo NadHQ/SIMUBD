@@ -1,0 +1,173 @@
+db.unicorns.find({weight:{$gte:540,$lte:650 }})
+db.unicorns.find({weight:{$gte:540,$lte:650 })
+db.unicorns.find({weight:{$gte:540,$lte:650 }})
+db.unicorns.find({weight:{$lt:540}})
+db.unicorns.find({weight:{$lt:540})
+db.unicorns.find({weight:540})
+db.unicorns.find({weight: {$gte:540})
+db.unicorns.find({weight: $gte:540)
+db.unicorns.find({weight: {$gte:540, $lte:650})
+db.find({},{weight: {$gte:540, $lte:650})
+db.find({{weight: {$gte:540, $lte:650}})
+db.find({weight: {$gte:540, $lte:650})
+db.unicorns.find()
+show collections
+use learn
+show dbs
+db.unicorn.find({{gender: 'f'},weight:{$gt:500, $lt:700}}, {_id:false}}).count()
+db.unicorn.find()
+db.unicorns.find()
+show collections
+db.unicorn.insert({name:"123312"})
+show collections
+show collection
+show colletion
+show colletions
+db.stats()
+use db1
+use learn
+show dbs
+db.unicorns.find()
+show collections
+show collection
+use learn
+show databases
+show collections
+show colletion
+show colletions
+db.CollectionNames()
+db.CollectionName()
+db.CollectionName
+db.unicorns.find({vampires:{$exists :false}}, {_id:false})
+db.unicorns.find({vampires:{$exist :false}}, {_id:false})
+db.unicorns.find({gender: 'm',loves:{$all : ['grape','lemon']}}, {_id:false})
+db.unicorns.find({gender: 'm',loves:{$in : ['grape','lemon']}}, {_id:false})
+db.unicorns.find({gender: 'f',weight:{$gt:500, $lt:700}}, {_id:false})
+db.unicorn.find({gender: 'f',weight:{$gt:500, $lt:700}}, {_id:false})
+db.unicorn.find({gender: 'f',weight:{$gt:500, $lt:700}}, {_id:false}})
+db.unicorn.find({{gender: 'f'},weight:{$gt:500, $lt:700}}, {_id:false}})
+db.unicorn.find({gender: 'f'},{weight:{$gt:500, $lt:700}, {_id:false}})
+db.unicorn.find({gender: 'f'},{weight:{$gt:500, $lt:700}, _id:false}})
+db.unicorn.find({gender: 'f'},{weight:{$gt:500, $lt:700}, _id:false})
+db.unicorn.find({gender: 'f'},{weight:{$gt:500, $lt:700}, _id:{false}})
+db.unicorns.find({},{loves: {$slice : 1}, _id:false})
+db.unicorns.find({},{loves: {$slice : 1}, _id:false}})
+db.unicorns.find({},{loves: {$slice : 1, _id:false}})
+db.unicorns.find({},{loves: {$slice : 1}})
+db.unicorns.find({name: 1},{loves: {$slice : 1}})
+db.unicorns.find({{name: 1},loves: {$slice : 1}})
+db.unicorns.find({name: 1},loves: {$slice : 1})
+db.unicorns.find({{name: 1},loves: {$slice : 1}})
+db.unicorns.find({{},loves: {$slice : 1}})
+db.unicorns.find({loves: {$slice : 1}})
+db.unicorns.find({loves: {$slice : 1}}})
+db.unicorns.find().sort({$natural: 1}).limit(5)
+db.unicorns.find().sort({$natural: -1}).limit(5)
+db.unicorns.find({gender: 'm'}, {gender: false, dob: false})
+db.unicorns.find({gender: 'f', loves: 'carrot'}).limit(1)
+db.unicorns.find({gender: 'm', loves: 'carrot'}).limit(1)
+db.unicorns.find({gender: 'm', gender: 'f'}).sort({name: 1}).limit(3)
+db.unicorns.find({gender: 'm',gender: 'f'}).sort({name: 1})
+db.unicorns.find({gender: 'm', 'f'}).sort({name: 1})
+db.unicorns.find({gender:[ 'm', 'f']}).sort({name: 1})
+db.unicorns.find({gender: 'm'}).sort({name: 1}).limit(3)
+db.unicorns.find({gender: 'f'}).sort({name: 1}).limit(3)
+db.unicorns.find({gender: 'f'}).sort(name: 1).limit(3)
+db.unicorns.find({gender: 'm', gender: 'f'})
+db.users.find({gender: 'm', gender: 'f'})
+db.unicorns.find()
+db.unicorns.insert(document)
+db.unicorns.insert(documet)
+db.learn.find()
+document = {name: 'Dunx', dob: new Date(1976, 6, 18, 18, 18), loves: ['grape', 'watermelon'], weight: 704, gender: 'm', vampires: 165}
+db.unicorns.insert({name: 'Nimue', dob: new Date(1999, 11, 20, 16, 15), loves: ['grape', 'carrot'], weight: 540, gender: 'f'});
+db.unicorns.insert({name: 'Pilot', dob: new Date(1997, 2, 1, 5, 3), loves: ['apple', 'watermelon'], weight: 650, gender: 'm', vampires: 54});
+db.unicorns.insert({name: 'Leia', dob: new Date(2001, 9, 8, 14, 53), loves: ['apple', 'watermelon'], weight: 601, gender: 'f', vampires: 33});
+show collections
+db.stats()
+unicorn.stats()
+use learn
+use lear
+db.stats()
+unicorn.stats()
+db.unicorn.stats()
+show collections
+use unicorn
+show collections
+db.showCollections()
+db.showCollections
+db.unicorns.insert({name: 'Raleigh', dob: new Date(2005, 4, 3, 0, 57), loves: ['apple', 'sugar'], weight: 421, gender: 'm', vampires: 2});
+db.unicorns.insert({name:'Kenny', dob: new Date(1997, 6, 1, 10, 42), loves: ['grape', 'lemon'], weight: 690,  gender: 'm', vampires: 39});
+db.unicorns.insert({name:'Ayna', dob: new Date(1998, 2, 7, 8, 30), loves: ['strawberry', 'lemon'], weight: 733, gender: 'f', vampires: 40});
+db.unicorns.insert({name: 'Solnara', dob: new Date(1985, 6, 4, 2, 1), loves:['apple', 'carrot', 'chocolate'], weight:550, gender:'f', vampires:80});
+db.unicorns.insert({name: 'Roooooodles', dob: new Date(1979, 7, 18, 18, 44), loves: ['apple'], weight: 575, gender: 'm', vampires: 99});
+db.unicorns.insert({name: 'Unicrom', dob: new Date(1973, 1, 9, 22, 10), loves: ['energon', 'redbull'], weight: 984, gender: 'm', vampires: 182});
+db.unicorns.insert({name: 'Aurora', dob: new Date(1991, 0, 24, 13, 0), loves: ['carrot', 'grape'], weight: 450, gender: 'f', vampires: 43});
+db.unicorns.insert({name: 'Horny', dob: new Date(1992,2,13,7,47), loves: ['carrot','papaya'], weight: 600, gender: 'm', vampires: 63});
+use learn
+show dbs
+show collections
+db.dropDatabase()
+use test
+use local
+show collections
+db.stats()
+show dbs
+use test
+db.dropDatabase("test")
+show dbs
+dbs
+db.dropDatabase("test")
+dp.dropDatabase("test")
+show dbs
+show collections
+use unicorn
+show collections
+use test
+db.getCollectionNames()
+db.getCollectionNames
+db.test.insert({title: "Mysql"})
+use test
+db.stats()
+db.dropDatabase()
+db.getCollectionNames()
+db.unicorn1.drop()
+db.getCollectionNames()
+db.getCollectionNames
+use unicorn
+db.unicorn1.drop()
+db.getCollectionNames()
+db.getCollectionNames
+db.stats()
+db.unicorn1.stats()
+use unicorn1
+db.getCollectionNames()
+db.unicorn1.stats()
+db.unicorn.stats()
+db.stats()
+db.stats
+db.unicorn.renameCollection("unicorn1")
+db.unicorn.rename("unicorn1")
+db.unicorn.rename('unic')
+db.unicorn.rename(unic)
+db.getCollectionNames()
+db.unicorn.insert({name: 'Aurora', gender: 'f', weight: 450})
+use unicorn
+db.stats()
+db.help
+db.help()
+show dbs
+dbs
+db.stats()
+use local
+show dbs
+db.dropDatabase()
+dp.dropDatabase()
+use db1
+гыу ви1
+db.stats()
+db.stats
+use test
+db.stats
+use db1
+use test
